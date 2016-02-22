@@ -26,3 +26,5 @@ module LearnYouAn where
 
   proof₂ : ℕ → ℕ
   proof₂ = proof₂' ℕ
+
+  
