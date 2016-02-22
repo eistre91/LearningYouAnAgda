@@ -8,3 +8,8 @@ module LearnYouAn where
   zero + m = m
   (suc n) + m = suc (n + m)
 
+  data _even : ℕ → Set where
+    ZERO : zero even
+    STEP : ∀ x → x even → suc (suc x) even
+
+  
